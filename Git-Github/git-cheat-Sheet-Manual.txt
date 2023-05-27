@@ -1,0 +1,33 @@
+COMANDOS MAS UTILIZADOS EN GIT
+
+1. git init: Crea un nuevo repositorio Git en un directorio vacío o inicializa uno existente.
+
+2. git clone [url]: Crea una copia local de un repositorio remoto en tu máquina.
+
+3.git remote --> PERMITE CONFIGURAR LOS ASPECTOS RELACIONADOS AL REPOSITORIO REMOTO
+3.1 git remote --v : retorna la direccion de repositorio remoto vinculada al repositorio
+3.2 git remote add [nombre] [url]: Conecta tu repositorio local a un repositorio remoto
+3.3 git remote set-url origin [nueva URL del repositorio] : permite actualizar la direccion de repositorio remoto por una nueva
+
+
+
+3.4 git add [archivo]: Agrega un archivo o cambios específicos al área de preparación (staging area) para ser incluidos en el siguiente commit.
+( se puede usar "." para referirse a todos los elementos)
+
+3.5 git commit -m "[mensaje]" "descripcion": Crea un nuevo commit con los cambios agregados en el staging area y los guarda en el historial del repositorio.
+
+3.6 git status: Muestra el estado actual del repositorio, incluyendo los archivos modificados, agregados o eliminados.
+
+3.7 git pull: Descarga los cambios más recientes desde un repositorio remoto y los fusiona con tu rama actual.
+3.7.1 git pull origin [branch]: descarga los cambios de una rama en especifico
+
+git push origin [branch]: Sube los commits locales al repositorio remoto en la rama especificada
+
+git branch: Muestra una lista de ramas en el repositorio. El asterisco indica la rama actual.
+
+git checkout [branch]: Cambia a la rama especificada, actualizando el directorio de trabajo con los archivos de esa rama.
+
+git merge [rama]: Fusiona los cambios de una rama específica en la rama actual.
+.
+
+git log: Muestra el historial de commits, incluyendo el autor, fecha y mensaje de cada commit.
