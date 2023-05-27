@@ -21,13 +21,12 @@ COMANDOS MAS UTILIZADOS EN GIT
 3.7 git pull: Descarga los cambios más recientes desde un repositorio remoto y los fusiona con tu rama actual.
 3.7.1 git pull origin [branch]: descarga los cambios de una rama en especifico
 
-git push origin [branch]: Sube los commits locales al repositorio remoto en la rama especificada
+3.8 git push origin [branch]: Sube los commits locales al repositorio remoto en la rama especificada
 
-git branch: Muestra una lista de ramas en el repositorio. El asterisco indica la rama actual.
+3.9 git branch: Muestra una lista de ramas en el repositorio. El asterisco indica la rama actual.
 
-git checkout [branch]: Cambia a la rama especificada, actualizando el directorio de trabajo con los archivos de esa rama.
+3.10 git checkout [branch]: Cambia a la rama especificada, actualizando el directorio de trabajo con los archivos de esa rama.
 
-git merge [rama]: Fusiona los cambios de una rama específica en la rama actual.
-.
+3.11 git merge [rama]: Fusiona los cambios de una rama específica en la rama actual.
 
-git log: Muestra el historial de commits, incluyendo el autor, fecha y mensaje de cada commit.
+3.12 git log: Muestra el historial de commits, incluyendo el autor, fecha y mensaje de cada commit.
