@@ -1,0 +1,31 @@
+--------------------------------------------- MAQUINA NORMAL  -------------------------------------------------
+
+///////////////////// IP PUBLICA //////////////////////////
+
+
+201.255.113.198
+
+///////////////////// IP PRIVADA //////////////////////////
+
+192.168.10.4
+
+
+--------------------------------------------- MAQUINA VIRTUAL  -------------------------------------------------
+
+///////////////////// IP PUBLICA //////////////////////////
+
+root@ubuntu-intro2:/home/intro# curl ifconfig.me
+
+201.255.113.198
+
+///////////////////// IP PRIVADA //////////////////////////
+
+root@ubuntu-intro2:/home/intro# ip addr show
+
+
+10.0.2.15
+
+--------------------------------------------- PREGUNTAS  -------------------------------------------------
+ la IP publica es la misma dado que esa depende de la red de internet, y dado que
+ambas comparten la misma red es normal que sean iguales,  la ip privada por otro
+lado al se run numero para identificar la maquina dentro de la red, ha de ser diferente
